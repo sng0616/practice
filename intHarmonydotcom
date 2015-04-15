@@ -1,8 +1,8 @@
 # Source: http://www.reddit.com/r/dailyprogrammer/comments/32goj8/20150413_challenge_210_easy_intharmonycom/
 
 # Steps/Questions to consider:
-input1 = 8008
-input2 = 37331
+input1 = 20
+input2 = 65515
 
 # Are these integers the same?
 
