@@ -1,8 +1,0 @@
-# Create a binary calculator to use for other programs
-
-analogInput = 123
-strAnalog = str(analogInput)
-enum = enumerate(strAnalog)
-
-for i in enum:
-    print i
