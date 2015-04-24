@@ -1,0 +1,10 @@
+# Source: http://www.reddit.com/r/dailyprogrammer/comments/32goj8/20150413_challenge_210_easy_intharmonycom/
+
+# Steps/Questions to consider:
+input1 = 20
+input2 = 65515
+
+# Are these integers the same?
+
+# How different are they?
+# Do they have the same number of digits?
