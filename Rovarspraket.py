@@ -26,11 +26,7 @@ print rovar
 
 phrase_rovar = "ToTrore KoKrorononoror äror vovärorloldodenonsos bobäsostota isoshohocockokeylolagog."
 enume_rovar = enumerate(phrase_rovar)
-extra_rovar = ""
 derovar = ""
-length_rovar = len(phrase_rovar)
-start = 0
-indices = []
 
 for x, y in enume_rovar:
 #	print x, y
