@@ -10,9 +10,14 @@ def Code2Text(fileName, txtFile):
 		splitFile = openFile.read().split("\n")
 		with open(txtFile, "w") as newTextFile:
 			newText = ""
-			for i in splitFile:
-				i = "    " + i
-				newText = newText + "\n" + i	
+			enume = enumerate(splitFile)
+			for i, j in enume:
+				if j.startswith("#"):
+					enume.next()
+					continue
+				else:
+					j = "    " + j
+					newText = newText + "\n" + j	
 			newTextFile.write(newText)	
 	return newTextFile
 	
