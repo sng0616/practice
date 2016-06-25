@@ -8,7 +8,6 @@
 
 import sys
 import re
-import os
 
 """Baby Names exercise
 
@@ -62,7 +61,6 @@ def extract_names(filename):
   names = []
   
   for i in names_ranks:
-      # line = i.split(" ")
       ranks.append(i[0])
       nm = [i[1],i[2]]
       names.append(nm)
