@@ -88,6 +88,4 @@ while len(missedList) < 6:
 			print missedList
 			guessLett = raw_input("No dice. Try again. ")
 
-# To-Do List:
-# 1. Write function to choose level.
-# 2. Write function to reduce repetition in the while loop.
+            
