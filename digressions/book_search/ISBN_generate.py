@@ -9,17 +9,17 @@ n = ISBN_len - 1
 def ndigits_rand(n):
     range_start = 10**(n-1)
     range_end = (10**n)-1
-    return randint(range_start, range_end)
+    return str(randint(range_start, range_end))
 
-pros_ISBN = str(ndigits_rand(n))
+pros_ISBN = ndigits_rand(n)
 #pros_ISBN = "855911054"
 print pros_ISBN
-enume = enumerate(pros_ISBN)
+#enume = enumerate(pros_ISBN)
 
 def gen_10(pros_ISBN):
 	product_Sum = 0
 	check_digit = 0
-	for i, j in enume:
+	for i, j in enumerate(pros_ISBN):
 		k = 10 - i
 		if j == "X":
 			j = "10"
@@ -44,7 +44,7 @@ def gen_10(pros_ISBN):
 def gen_13(pros_ISBN):
 	product_Sum = 0
 	check_digit = 0
-	for i, j in enume:
+	for i, j in enumerate(pros_ISBN):
 #		print i, j
 		if i%2 == 1:
 			k = 3
